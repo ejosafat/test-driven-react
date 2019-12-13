@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js --open"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +29,8 @@
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
     "prop-types": "^15.7.2",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
     "babel-loader": "^8.0.6",
