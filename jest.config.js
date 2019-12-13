@@ -1,3 +1,3 @@
 module.exports = {
-  setupTestFrameworkScriptFile: './src/tests/jestSetup.js',
+  setupFilesAfterEnv: ['./src/tests/jestSetup.js'],
 };
