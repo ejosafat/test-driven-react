@@ -5,6 +5,7 @@ import CarouselSlide from './CarouselSlide';
 import HasIndex from './HasIndex';
 import AutoAdvances from './AutoAdvances';
 
+// bogus commit
 export class Carousel extends React.PureComponent {
   static propTypes = {
     defaultImg: CarouselSlide.propTypes.Img,
